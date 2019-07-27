@@ -14,6 +14,6 @@
         android:layout_height="246dp"
         android:src="@drawable/river"
         tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="160dp" />
+        tools:layout_editor_absoluteY="160dp"/>
 
 </RelativeLayout>
