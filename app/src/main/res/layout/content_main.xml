@@ -10,10 +10,10 @@
     tools:showIn="@layout/app_bar_main">
 
     <ImageView
-        android:layout_width="249dp"
-        android:layout_height="246dp"
+        android:layout_width="387dp"
+        android:layout_height="392dp"
         android:src="@drawable/river"
         tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="160dp"/>
+        tools:layout_editor_absoluteY="160dp" />
 
 </RelativeLayout>
