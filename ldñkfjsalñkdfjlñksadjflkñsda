@@ -1,0 +1,42 @@
+[33mcommit 839fa344dd93d0fdcdcd930a6ea35cf11039e54f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 9a8af9c 6636638
+Author: dvillarreal1234 <villarrealdamian@hotmail.com.ar>
+Date:   Tue Jul 30 16:37:04 2019 -0300
+
+    agregue vcs
+
+[33mcommit 9a8af9c68c1e740779639aa212d76f7845adeec4[m
+Author: dvillarreal1234 <villarrealdamian@hotmail.com.ar>
+Date:   Tue Jul 30 16:34:45 2019 -0300
+
+    agrego vcs.xml
+
+[33mcommit 663663803f19a5993e914e402b96254b2ec431e8[m
+Author: maury07 <maury.-n@live.com.ar>
+Date:   Tue Jul 30 16:25:29 2019 -0300
+
+    Modifique tamaño imagen, build.gradle y agregue archivo vcs.xml
+
+[33mcommit 031f1b87a4d8aed56cf4c2ca2d34453e9514e9d2[m
+Author: maury07 <maury.-n@live.com.ar>
+Date:   Sat Jul 27 17:58:46 2019 -0300
+
+    Subi imagen nueva del campeon de america jajaja
+
+[33mcommit 5dfabd0e14e3c0c2967a89fbb4da405c857c9141[m
+Author: maury07 <maury.-n@live.com.ar>
+Date:   Fri Jul 26 21:40:36 2019 -0300
+
+    Subi imagen nueva del campeon de america jajaja
+
+[33mcommit 69846028827dfd245bb304ecfcbe39047878af93[m
+Author: dvillarreal1234 <villarrealdamian@hotmail.com.ar>
+Date:   Fri Jul 26 19:59:42 2019 -0300
+
+    Agrego la clase Camara
+
+[33mcommit 30776a1f0d651efa18cd42438302336c2a5c4590[m
+Author: dvillarreal1234 <villarrealdamian@hotmail.com.ar>
+Date:   Fri Jul 26 19:45:19 2019 -0300
+
+    Agrego Proyecto al Repositorio Prueba

@@ -16,4 +16,13 @@
         tools:layout_editor_absoluteX="81dp"
         tools:layout_editor_absoluteY="160dp" />
 
+    <Button
+        android:id="@+id/btnInflarFragment"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="400dp"
+        android:text="Inflar Fragment"
+        android:textColor="#000" />
+
 </RelativeLayout>
