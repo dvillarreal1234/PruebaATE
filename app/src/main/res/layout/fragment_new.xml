@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Hola CAMPEON DE AMÉRICA" />
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="192dp"
+        android:src="@drawable/river"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+</FrameLayout>

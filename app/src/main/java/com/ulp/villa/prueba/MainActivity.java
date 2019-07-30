@@ -1,5 +1,7 @@
 package com.ulp.villa.prueba;
 
+import android.app.Activity;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -18,11 +20,17 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.view.Menu;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    FragmentManager fragmentManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,11 +39,17 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
+
+        if (fragmentManager == null) {
+            fragmentManager = getSupportFragmentManager();
+        }
+        fragmentManager.beginTransaction().replace(R.id.contenedor, new NewFragment(), "Nuevo").commit();
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Toast.makeText(getApplicationContext(), "Muñeeeeeeco! Muñeeeeeco", Toast.LENGTH_SHORT).show();
+                fragmentManager.beginTransaction().replace(R.id.contenedor, new TwoFragment(), "segundo").commit();
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
