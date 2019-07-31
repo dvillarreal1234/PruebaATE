@@ -24,21 +24,16 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import android.view.Menu;
-<<<<<<< HEAD
 import android.widget.Button;
-=======
->>>>>>> 28854dd1e28c255bb2e7015bc80230c3989d1b00
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-<<<<<<< HEAD
+
     Button inflaFragment;
-=======
     FragmentManager fragmentManager;
 
->>>>>>> 28854dd1e28c255bb2e7015bc80230c3989d1b00
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
