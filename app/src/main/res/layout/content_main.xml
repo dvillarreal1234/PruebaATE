@@ -8,17 +8,4 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     android:id="@+id/contenedor"
-    tools:showIn="@layout/app_bar_main">
-
-
-
-    <Button
-        android:id="@+id/btnInflarFragment"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="400dp"
-        android:text="Inflar Fragment"
-        android:textColor="#000" />
-
-</RelativeLayout>
+    tools:showIn="@layout/app_bar_main"/>

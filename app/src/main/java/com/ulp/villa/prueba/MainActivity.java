@@ -1,11 +1,8 @@
 package com.ulp.villa.prueba;
 
-import android.app.Activity;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import android.view.View;
 
@@ -20,7 +17,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import android.view.Menu;
@@ -30,8 +26,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-
-    Button inflaFragment;
     FragmentManager fragmentManager;
 
 
@@ -41,22 +35,13 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
 
-        inflaFragment = (Button) findViewById(R.id.btnInflarFragment);
-        inflaFragment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Click en le boton del MAIN",Toast.LENGTH_SHORT).show();
-            }
-        });
-
-
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
 
         if (fragmentManager == null) {
             fragmentManager = getSupportFragmentManager();
         }
-        fragmentManager.beginTransaction().replace(R.id.contenedor, new NewFragment(), "Nuevo").commit();
+        fragmentManager.beginTransaction().replace(R.id.contenedor, new LoginFragment(), "Nuevo").commit();
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
